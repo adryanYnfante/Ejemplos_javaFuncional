@@ -9,6 +9,7 @@ public class declarative1 {
                 .filter(number -> number % 2 == 0)
                 .mapToInt(e->e*2).sum());
 
+
         System.out.println(
                 numbers.stream()
                         .filter(number -> number % 2 == 0)
